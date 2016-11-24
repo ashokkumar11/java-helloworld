@@ -21,7 +21,7 @@ public class SimpleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().print("Hi, This is our testing page of Java Sample Code & Deploy !!! ...");
+        response.getWriter().print("Hello Welcome to my Home Page ...");
     }
 
 }
